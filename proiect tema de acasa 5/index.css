@@ -1,0 +1,162 @@
+body {
+    background-color: #444;
+}
+
+.patrat1 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 300px;
+}
+
+.cob1 {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 100%;
+
+    animation: travel 1s infinite;
+}
+
+.cob2 {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(211, 18, 18);
+    border-radius: 100%;
+
+    animation: travel1 2s infinite;
+}
+
+.cob3 {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(211, 18, 18);
+    border-radius: 100%;
+
+    animation: travel3 4s infinite;
+}
+
+.cob4 {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(211, 18, 18);
+    border-radius: 100%;
+
+    animation: travel4 3s infinite;
+}
+
+@keyframes travel {
+
+    0% {
+        transform:
+            translateX(-40px) translateY(-40px)
+    }
+
+    25% {
+        transform:
+            translateX(220px) translateY(-20px)
+    }
+
+    50% {
+        transform:
+            translateX(220px) translateY(220px)
+    }
+
+    75% {
+        transform:
+            translateX(-40px) translateY(220px)
+    }
+
+    100% {
+        transform:
+            translateX(-25px) translateY(-25px)
+    }
+
+}
+
+@keyframes travel1 {
+
+    0% {
+        transform:
+            translateX(-20px) translateY(-40px)
+    }
+
+    25% {
+        transform:
+            translateX(200px) translateY(-20px)
+    }
+
+    50% {
+        transform:
+            translateX(200px) translateY(200px)
+    }
+
+    75% {
+        transform:
+            translateX(-40px) translateY(220px)
+    }
+
+    100% {
+        transform:
+            translateX(-20px) translateY(-20px)
+    }
+
+}
+
+@keyframes travel3 {
+
+    0% {
+        transform:
+            translateX(-20px) translateY(-40px)
+    }
+
+    25% {
+        transform:
+            translateX(200px) translateY(-20px)
+    }
+
+    50% {
+        transform:
+            translateX(200px) translateY(200px)
+    }
+
+    75% {
+        transform:
+            translateX(-40px) translateY(220px)
+    }
+
+    100% {
+        transform:
+            translateX(-20px) translateY(-20px)
+    }
+
+}
+
+@keyframes travel4 {
+
+    0% {
+        transform:
+            translateX(-20px) translateY(-40px)
+    }
+
+    25% {
+        transform:
+            translateX(200px) translateY(-20px)
+    }
+
+    50% {
+        transform:
+            translateX(200px) translateY(200px)
+    }
+
+    75% {
+        transform:
+            translateX(-40px) translateY(220px)
+    }
+
+    100% {
+        transform:
+            translateX(-20px) translateY(-20px)
+    }
+
+}
